@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drill 2</title>
+
+      <!-- BOOTSTRAP CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+<center>
+   
+    <div class="container-fluid mt3">
+        <div class="container p-4 mt-3 bg-light rounded-3">
+             <h1>Super Duper Calculator</h1>
+            <img src="circle.jpg" width="100px">
+             <form>
+            Radius:  <input type="number" id="radius" class="form-control w-50 mx-auto" placeholder="Enter radius"><br>
+            Area: <input type="text" id="area" class="form-control w-50 mx-auto" readonly>
+
+            <button type="button" class="btn btn-danger"onclick="calculateArea()"> Calculate</button>
+                <button type="button" class="btn btn-danger" onclick="window.location.reload()">Refresh</button>
+
+            </form>
+
+
+        
+      </div>
+ </center>  
+    <script src="main.js"></script>
+</body>
+</html>
